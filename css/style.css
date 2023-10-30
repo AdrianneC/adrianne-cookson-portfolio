@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+/* this the style of the header & navigation */
+
+.header {
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ae96c2;
+  color: #ffffff;
+}
+
+.header h1 {
+  display: inline-block;
+  font-size: 48px;
+}
+
+.header nav {
+  display: flex;
+  flex-direction: row;
+  padding-top: 15px;
+  margin-right: 75px;
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+.header a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 50px;
+}
+
+/* this the style of the hero image */
+
+.heroBanner {
+  height: 400px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/02-hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.heroBanner div {
+  display: flex;
+  flex-direction: row;
+  padding-top: 75px;
+  margin-right: 75px;
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+.heroBanner h2 {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 50px;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
