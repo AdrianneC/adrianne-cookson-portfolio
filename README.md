@@ -1,4 +1,4 @@
-# Digital Marketing Agency Landing Page
+# Adrianne Cookson Online Portfolio
 
 ## Description
 
